@@ -1,0 +1,27 @@
+This is the README for the Oswald package, version 2020/12/30.
+  
+This package provides LaTeX, pdfLaTeX support for the Archivo family of fonts, 
+designed by Designed by Omnibus-Type. 
+
+To use, add
+
+     \usepackage{Archivo}
+
+to the preamble of your document. These will activate Oswald
+as the text font. 
+
+Options scaled=<number> or scale=<number> may be used to scale the fonts.
+
+
+Font encodings supported are OT1, T1, LY1.
+
+The original TrueType fonts were obtained from
+
+      https://fonts.google.com/specimen/Archivo#about
+
+and are licensed under the SIL Open Font License, version
+1.1; the text may be found in the doc directory. The type1
+versions were created using cfftot1. The support files were
+created using autoinst and are licensed under the terms of
+the LaTeX Project Public License. The maintainer of this
+package is Carl-Clemens Ebinger at post(at)ebinger(dot)cc.
